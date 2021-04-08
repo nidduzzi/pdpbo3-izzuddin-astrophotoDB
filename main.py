@@ -133,7 +133,7 @@ def getImg():
     root.filename = filedialog.askopenfilename(initialdir="~",
                                                title="Select a File",
                                                filetypes=(
-                                                   ("Images", "*.jpg* *.jpeg* *.png*"), ("all files", "*.*"))
+                                                   ("Images", "*.jpg *.jpeg *.png"), ("all files", "*.*"))
                                                )
     # display image preview
     load = Image.open(root.filename)
