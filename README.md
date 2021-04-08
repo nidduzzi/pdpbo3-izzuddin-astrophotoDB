@@ -11,4 +11,4 @@ using theme 'awdark' from [here](https://sourceforge.net/projects/tcl-awthemes/)
 run `main.py`
 
 install required packages using conda or pip.  
-The `requirements.txt` for each pacakge manager is stored in their folders named after them in the root of the repo.  
+The `requirements.txt` for each pacakge manager is stored in the `/conda` and `/pip` folders respectively which is located in the root of the repo.  
